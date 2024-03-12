@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Decodificador</title>
+    
+</head>
+<body>
+    <header class="logoCadeado" >
+        <img src="assets/cripto.png" alt="logo de um cadeado"><h1>Decodificador de textos</h1>
+        
+    </header>
+
+<main>
+    <section>
+    <textarea class="textArea" cols="41" rows="4"  placeholder="Digite seu texto."></textarea>
+    <div class="texto__recomendacao"> Apenas letras minúsculas e sem acento.</div>
+
+    <div class="botoes">
+        <button onclick="btnEncriptar()" class="cripto">Criptografar</button>
+        <button onclick="btnDesencriptar()" class="descripto" >Descriptografar</button>
+    </div>
+
+</section>
+
+    <section>
+        <div class="divMensagem">
+            <textarea class="mensagem" id="mensagemImagem" cols="20" rows="6"></textarea>
+            <button onclick="btncopiar()" class="bt-copiar">Copiar</button>
+        </div>
+        
+    </section>
+</main>
+
+    <script src="app.js"></script>
+</body>
+</html>

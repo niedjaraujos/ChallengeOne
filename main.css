@@ -1,0 +1,99 @@
+* {
+    background: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 190%;
+}
+.logoCadeado {color:#c7a0fb;
+    display: flex;
+    gap:25%;
+    margin-left: 70px;
+}
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.textArea {
+    border: none;
+    color:#f7ebfc;
+    margin-top: 140px;
+    margin-left: 50px;
+    font-size: 2rem;
+    text-transform: lowercase;
+}
+
+::placeholder {color:#c7a0fb; }
+.textArea:focus{
+        outline: none;
+}
+
+.texto__recomendacao{
+    font-size: 0.80rem;
+    color: #e1ccfe;
+    margin-left: 100px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.cripto {
+    width: 45%;
+    background-color: #440a71;
+    border-color: #efa0f8;
+    border-radius: 24px;
+    font-size: 1rem;
+    color: #E5E5E5;
+    padding: 12px;
+}
+
+.descripto {
+    width: 45%;
+    background: #efd3fa;
+    border-radius: 24px;
+    border-color: #4d0a71;
+    font-size: 1rem;
+    color: #240034;
+    padding: 12px;
+}
+
+.divMensagem{
+    background-color: white;
+    border: none;
+    border-radius: 32px;
+    margin-top: 5px;
+    margin-left: 300px;
+    text-align: center;}
+
+.mensagem {
+    background-color: white;
+    background-image: url(./assets/boneco.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-x: center;
+    background-position-y: 40px;
+    border-radius: 32px;
+    color: #2a004a;
+    border: none;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.mensagem:focus{
+    outline: none;
+}
+
+.bt-copiar {
+    width: 80%;
+    background-color:#440a71;
+    border-color: #efa0f8;
+    border-radius: 24px;
+    font-size: 1rem;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    padding: 12px;
+}
